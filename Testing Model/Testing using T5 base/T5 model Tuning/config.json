@@ -15,7 +15,6 @@
   "initializer_factor": 1.0,
   "is_encoder_decoder": true,
   "is_gated_act": false,
-  "label_smoothing": 0.1,
   "layer_norm_epsilon": 1e-06,
   "model_type": "t5",
   "n_positions": 512,
