@@ -9,9 +9,9 @@
   "d_model": 768,
   "decoder_start_token_id": 0,
   "dense_act_fn": "relu",
-  "dropout_rate": 0.2,
+  "dropout_rate": 0.1,
   "eos_token_id": 1,
-  "feed_forward_proj": "relu",
+  "feed_forward_proj": "gelu",
   "initializer_factor": 1.0,
   "is_encoder_decoder": true,
   "is_gated_act": false,
@@ -55,7 +55,7 @@
     }
   },
   "torch_dtype": "float32",
-  "transformers_version": "4.45.1",
+  "transformers_version": "4.46.3",
   "use_cache": true,
   "vocab_size": 32100
 }
