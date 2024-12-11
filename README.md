@@ -21,7 +21,8 @@ Healthcare Chatbot about General Health Information
    - Install the required dependencies
      `pip install -r requirements.txt`
    - Load the Model and Tokenizer
-     `import pickle
+     ```
+     import pickle
       from keras.models import load_model
       
       # Load the model
@@ -34,7 +35,7 @@ Healthcare Chatbot about General Health Information
       # Load the label encoder
       with open('label_encoder.pickle', 'rb') as handle:
           label_encoder = pickle.load(handle)
-      `
+      ```
    - Run the Jupyter Notebook
      `jupyter notebook mental-notebook.ipynb`
 2. General Disease Chatbot
